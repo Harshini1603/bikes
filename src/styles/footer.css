@@ -1,0 +1,49 @@
+.footer{
+    background: #000d6b;
+    padding-top: 50px;
+    padding-bottom: 15px;
+
+}
+.foot{
+    display: flex;
+    justify-content: space-between;
+}
+.footer-logo i{
+    color: white;
+    font-weight: 500;
+}
+.footer-logo span{
+    color: white;
+    font-weight: 500;
+}
+.footer-logo-content{
+    color: white;
+    margin-top: 15px;
+    line-height: 30px;
+
+}
+.quick-link{
+    border: none !important;
+    background: transparent !important;
+}
+.quick-link a{
+    color: white;
+    text-decoration: none;
+    font-weight: 300;
+}
+.quick-link a:hover{
+    color: orange;
+}
+.footer-link-title{
+    color: white;
+}
+.office-info{
+    color: white;
+    font-weight: 300;
+}
+.footer-bottom{
+    border-top: 1px solid darkblue;
+    color: white;
+    display: flex;
+    justify-content: center;
+}

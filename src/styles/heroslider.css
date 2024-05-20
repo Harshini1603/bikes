@@ -1,0 +1,52 @@
+.slider-item{
+    max-width: 100%;
+    height: 650px;
+}
+.slider-item-01{
+    background: linear-gradient(rgb(0,13,107,0.5),rgb(0,13,107,0.5)),
+    url("https://stat.overdrive.in/wp-content/odgallery/2018/11/48161_Royal_Enfield_ContinentalGT_6502018_021.JPG");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.slider-item-02{
+    background: linear-gradient(rgb(0,13,107,0.5),rgb(0,13,107,0.5)),
+    url("https://img.indianautosblog.com/2020/11/25/royal-enfield-classic-350-orange-ember-in-desert-b78c.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.slider-item-03{
+    background: linear-gradient(rgb(0,13,107,0.5),rgb(0,13,107,0.5)),
+    url("https://wallpapercave.com/wp/wp5735166.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.slider-item-04{
+    background: linear-gradient(rgb(0,13,107,0.5),rgb(0,13,107,0.5)),
+    url("https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEggWFcsJVm-KelDwP0hdYGiMTdlapN1y6DDE5CuuflY9oLnegkd_KZC1_R4xTq855ByNQzTnlPBz6Rxj6g_YiX895nUkKkL6yatV0dlJAHaWT8q1SGzVVDOEag2RxshC-oQ8lEScCaSEvWGpSX__5xHBFJVYnjA2CJU2Z1rAPQHhDZXfOFrJYU4uwibqg/s1920/Hunter%20350%20Dapper%20White(2).jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.hero-slider{
+    overflow: hidden;
+}
+.slider-content{
+    padding-top: 150px;
+}
+.slider-content h1{
+    font-size: 3.2rem;
+    font-weight: 600;
+}
+.reserve-btn{
+    background: white !important;
+    color: #000d6b;
+    border: none;
+    outline: none;
+}
+.reserve-btn a{
+    text-decoration: none;
+    font-weight: 600;
+}

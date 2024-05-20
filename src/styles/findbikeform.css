@@ -1,0 +1,31 @@
+.find-bike-left{
+    background: linear-gradient(rgba(249, 239, 249, 0.9),rgba(162, 192, 248, 0.9)),
+    url("https://static.autox.com/uploads/2021/02/royal-enfield-himalayan-bs6-m.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 95px 35px;
+    display: flex;
+    justify-content: center;
+    
+}
+.find-bike-left a{
+    text-decoration: none;
+    color: black;
+}
+.form-row{
+    background: white;
+    box-shadow: 1px 1px 15px 3px gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.find-bike-left h2{
+    font-weight: 600;
+}
+
+.hero-slider-section{
+    position: relative;
+    z-index: 10;
+}

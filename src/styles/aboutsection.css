@@ -1,0 +1,11 @@
+.about-section-item{
+    column-gap: 3rem;
+}
+
+.about-section-item p i{
+    color: yellow;
+}
+.activa-blue{
+    width: 400px;
+    padding-left: 40px;
+}
