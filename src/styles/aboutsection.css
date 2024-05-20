@@ -9,3 +9,35 @@
     width: 400px;
     padding-left: 40px;
 }
+
+@media only screen and (max-width:992x){
+    .about-section-content h2{
+        font-style: 1.5rem;
+    }
+    .about-section-item{
+        column-gap: 3rem;
+    }
+    .about-section-item p{
+        font-size: 0.6rem;
+        margin-bottom: 0;
+    }
+    .section-description i{
+        font-size: 0.8rem;
+    }
+}
+
+@media only screen and (max-width:768x){
+    .about-img{
+        margin-top: 30px;
+    }
+    .about-section{
+        margin-top: 250px;
+    }
+}
+
+@media only screen and (max-width:576x){
+    .about-section{
+        margin-top: 280px;
+    }
+
+}

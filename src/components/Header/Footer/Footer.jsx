@@ -64,12 +64,11 @@ function Footer()
             <div className="mb-4">
               <h5 className='footer-link-title mb-4'>Head Office</h5>
               <p className='office-info'>
-                <i class="ri-map-pin-line"></i>
+              <Link to='https://www.google.com/maps?q=17.4081382751465,78.5697860717773' target='_blank'> <i class="ri-map-pin-line"></i>
                 122, Swaroop Nagar Rd, Swaroop Nagar, Sai Nagar, Boduppal, Hyderabad, Telangana 500039
-              </p>
+                </Link></p>
               <p className='office-info'>
-                <i class="ri-phone-line"></i>
-                999999999
+              <a href='tel:+91 9989197113'><i class="ri-phone-fill"></i> +91 9989197113</a>
               </p>
               <p className='office-info'>
                 <i class="ri-mail-line"></i>

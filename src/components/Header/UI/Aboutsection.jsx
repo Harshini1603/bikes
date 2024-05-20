@@ -4,7 +4,7 @@ import activa from "../../../Assets/Images/activa.png"
 import { Container,Row,Col } from 'reactstrap'
 const Aboutsection = () => {
   return (
-    <section>
+    <section className='about-section'>
         <Container>
             <Row>
                 <Col lg="6" md="6">
