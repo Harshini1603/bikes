@@ -7,6 +7,10 @@ import Bikedetails from '../pages/Bikedetails'
 import Blog from '../pages/Blog'
 import Blogdetails from '../pages/Blogdetails'
 import Contact from '../pages/Contact'
+import Honda from "../pages/Honda"
+import Hero from '../pages/Hero'
+import Bajaj from '../pages/Bajaj'
+import Tvs from '../pages/Tvs'
 function Routers() {
   return (
     
@@ -19,6 +23,11 @@ function Routers() {
         <Route path='/bikes' element={<Blog/>}/>
         <Route path='/blogs/:slug' element={<Blogdetails/>}/>
         <Route path='/contact' element={<Contact/>}/>
+        <Route path='/honda' element={<Honda/>}/>
+        <Route path='/hero' element={<Hero/>}/>
+        <Route path='/tvs' element={<Tvs/>}/>
+        <Route path='/bajaj' element={<Bajaj/>}/>
+
     </Routes>
   )
 }

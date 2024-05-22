@@ -6,7 +6,7 @@
 // const Bikelist = (props) => {
 //   const {id, imgUrl,model,bikeName,speed,price}=props.item
 //   return (
-    
+
 //     <Col lg="4" md="4" sm="6">
 //       <div className='bike-item'>
 //         <div className='bike-img'>
@@ -32,12 +32,39 @@
 
 // export default Bikelist
 
-import React from 'react'
+import React from 'react';
+import { Link } from 'react-router-dom';
+import activa from "../Assets/Images/actred.png";
+import glamour from "../Assets/Images/glamourblack.png";
+import ntorq from "../Assets/Images/ntorq.png";
+import pulsar from "../Assets/Images/pulsar.png";
+import "../styles/bikelist.css";
 
 const Bikelist = () => {
   return (
-    <div>Bikelist</div>
-  )
+    <div className='bikes-container'>
+      <div className='frow'>
+        <Bike brand="HONDA" srcName={activa} description="HONDA" link="/honda" />
+        <Bike brand="HERO" srcName={glamour} description="HERO" link="/hero" />
+        <Bike brand="TVS" srcName={ntorq} description="TVS" link="/tvs" />
+        <Bike brand="BAJAJ" srcName={pulsar} description="BAJAJ" link="/bajaj" />
+      </div>
+    </div>
+  );
 }
 
-export default Bikelist
+const Bike = ({ brand, srcName, description, link }) => {
+  return (
+    <div className='bike'>
+      <Link to={link} className='bike-link'>
+        <img src={srcName} className='bikeimg' alt={`${brand} bike`} />
+        <hr className="separator" />
+        <h1 className='bike-description'>{description}</h1>
+        <div className="overlay">{brand}</div>
+      </Link>
+    </div>
+  );
+}
+
+export default Bikelist;
+

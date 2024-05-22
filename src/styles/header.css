@@ -1,5 +1,5 @@
 .header-top{
-    padding: 10px 0px;
+    padding: 0px 0px;
     background: #000d6b;
     color: white;
     /* display: flex;
@@ -162,7 +162,7 @@ font-size: 0.8rem;
     color: orange;
 }
 
-@media only screen and (max-width:768px){
+/* @media only screen and (max-width:768px){
     .header-top,
     .header-middle,
     .nav-right{
@@ -200,4 +200,4 @@ display: none;
 .menu-active{
     display: block;
 }
-}
+} */
