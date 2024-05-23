@@ -11,6 +11,7 @@ import Honda from "../pages/Honda"
 import Hero from '../pages/Hero'
 import Bajaj from '../pages/Bajaj'
 import Tvs from '../pages/Tvs'
+import Tvsrider from '../pages/Tvsrider'
 function Routers() {
   return (
     
@@ -27,6 +28,7 @@ function Routers() {
         <Route path='/hero' element={<Hero/>}/>
         <Route path='/tvs' element={<Tvs/>}/>
         <Route path='/bajaj' element={<Bajaj/>}/>
+        <Route path='/Tvsrider' element={<Tvsrider/>}/>
 
     </Routes>
   )
